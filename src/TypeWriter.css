@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #fff 0%, #aaa 100%) no-repeat !important;
+}
+
+span.cursor {
+  font-family: monospace;
+  font-size: 1em;
+}
+span.cursor.lodash:after {
+  content:"_";
+  opacity: 0;
+  animation: cursorAnimation 1s infinite;
+}
+span.cursor.pipe:after {
+  content:"|";
+  opacity: 0;
+  animation: cursorAnimation 1s infinite;
+}
+@keyframes cursorAnimation {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.application__container {
+  width: 900px;
+  margin: 50px auto;
+}
+.application__container h1 {
+  margin: 0;
+  padding: 0;
+}
+.application__container h2 {
+  margin: 0;
+  padding: 0;
+}
