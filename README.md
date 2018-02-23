@@ -21,6 +21,7 @@ import TypeWriter from './TypeWriter';
 
 ## Build and run project
 ``npm install`` download packages
+
 ``npm start`` start server application
 
 ## Test
